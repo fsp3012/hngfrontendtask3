@@ -1,13 +1,33 @@
 import React from "react";
+import { useSortable } from "@dnd-kit/sortable";
 
-function ImageCard({ image, index }) {
+function ImageCard({ image, index, setActiveId }) {
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging,
+  } = useSortable({
+    id: image.id,
+  });
+
   return (
     <div
-      className="border rounded-md overflow-hidden shadow-lg"
-      draggable="true"
-      onDragStart={(e) => e.dataTransfer.setData("text/plain", index)}
+      {...attributes}
+      {...listeners}
+      ref={setNodeRef}
+      className={`border rounded-md overflow-hidden shadow-lg ${
+        isDragging ? "opacity-50" : ""
+      }`}
+      style={{
+        cursor: "grab",
+        transform,
+        transition,
+      }}
     >
-      <img src={image.url} alt="image" className="w-full h-auto" />
+      <img src={image.imageUrl} alt={image.tag} className="w-full h-auto" />
       <div className="p-2">
         <p>Tag: {image.tag}</p>
       </div>

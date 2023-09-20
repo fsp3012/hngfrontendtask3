@@ -1,3 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "@dnd-kit/reset.css";
+@import "@dnd-kit/core/dist/style.css";
