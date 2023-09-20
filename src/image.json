@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "url": "./src/assets/breakfast.jpg",
+    "tag": "Food"
+  },
+  {
+    "id": 2,
+    "url": "./src/assets/cld-sample-2.jpg",
+    "tag": "Mountain"
+  },
+  {
+    "id": 3,
+    "url": "./src/assets/kitten-playing.gif",
+    "tag": "Cat"
+  },
+  {
+    "id": 4,
+    "url": "./src/assets/nature-mountains.jpg",
+    "tag": "Nature"
+  },
+  {
+    "id": 5,
+    "url": "./src/assets/jazz.jpg",
+    "tag": "Sound"
+  },
+  {
+    "id": 6,
+    "url": "./src/assets/kitchen-bar.jpg",
+    "tag": "Kitchen"
+  },
+  {
+    "id": 7,
+    "url": "./src/assets/imagecon-group.jpg",
+    "tag": "City"
+  },
+  {
+    "id": 8,
+    "url": "./src/assets/pot-mussels.jpg",
+    "tag": "Pot"
+  },
+  {
+    "id": 9,
+    "url": "./src/assets/reindeer.jpg",
+    "tag": "Animal"
+  },
+  {
+    "id": 10,
+    "url": "./src/assets/iel993luwvvc9pev05xr.png",
+    "tag": "Sport"
+  }
+]
