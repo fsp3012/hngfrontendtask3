@@ -1,53 +1,63 @@
+import image1 from './assets/breakfast.jpg'
+import image2 from './assets/cld-sample-2.jpg'
+import image3 from './assets/kitten-playing.gif'
+import image4 from './assets/nature-mountains.jpg'
+import image5 from './assets/jazz.jpg'
+import image6 from './assets/kitchen-bar.jpg'
+import image7 from './assets/imagecon-group.jpg'
+import image8 from './assets/pot-mussels.jpg'
+import image9 from './assets/reindeer.jpg'
+import image10 from './assets/iel993luwvvc9pev05xr.png'
 const staticImages = [
   {
     id: 1,
     tag: "Food",
-    imageUrl: "./src/assets/breakfast.jpg",
+    imageUrl: image1,
   },
   {
     id: 2,
     tag: "Mountain",
-    imageUrl: "./src/assets/cld-sample-2.jpg",
+    imageUrl: image2,
   },
   {
     id: 3,
     tag: "Cat",
-    imageUrl: "./src/assets/kitten-playing.gif",
+    imageUrl: image3,
   },
   {
     id: 4,
     tag: "Nature",
-    imageUrl: "./src/assets/nature-mountains.jpg",
+    imageUrl: image4,
   },
   {
     id: 5,
     tag: "Sound",
-    imageUrl: "./src/assets/jazz.jpg",
+    imageUrl: image5,
   },
   {
     id: 6,
     tag: "Kitchen",
-    imageUrl: "./src/assets/kitchen-bar.jpg",
+    imageUrl: image6,
   },
   {
     id: 7,
     tag: "City",
-    imageUrl: "./src/assets/imagecon-group.jpg",
+    imageUrl: image7,
   },
   {
     id: 8,
     tag: "Pot",
-    imageUrl: "./src/assets/pot-mussels.jpg",
+    imageUrl: image8,
   },
   {
     id: 9,
     tag: "Animal",
-    imageUrl: "./src/assets/reindeer.jpg",
+    imageUrl: image9,
   },
   {
     id: 10,
     tag: "Sport",
-    imageUrl: "./src/assets/iel993luwvvc9pev05xr.png",
+    imageUrl: image10,
   },
 ];
 
