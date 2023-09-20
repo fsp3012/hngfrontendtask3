@@ -12,16 +12,6 @@ function GalleryWithUpload() {
 
 
   useEffect(() => {
-    const storedImages = JSON.parse(localStorage.getItem("images"));
-    if (storedImages) {
-      setImages(storedImages);
-      setLoading(false);
-    } else {
-      fetchImages();
-    }
-  }, []);
-
-  useEffect(() => {
     localStorage.setItem("images", JSON.stringify(images));
   }, [images]);
 
