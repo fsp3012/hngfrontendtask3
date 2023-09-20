@@ -10,15 +10,21 @@ function GalleryWithUpload() {
   const [searchQuery, setSearchQuery] = useState("");
   const [newImageTag, setNewImageTag] = useState("");
 
-
   useEffect(() => {
     localStorage.setItem("images", JSON.stringify(images));
   }, [images]);
 
   useEffect(() => {
-    const fetchImages = async () => {
+    const fetchImages = async (images) => {
       try {
-        const response = await fetch("./src/image.json");
+        const response = await fetch("./src/image.json", {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(images),
+          // mode: "cors",
+        });
         if (!response.ok) {
           throw new Error("Failed to fetch images.");
         }
