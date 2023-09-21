@@ -1,5 +1,6 @@
 import React from "react";
 import { useSortable } from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
 
 function ImageCard({ image, index, setActiveId }) {
   const {
@@ -23,7 +24,7 @@ function ImageCard({ image, index, setActiveId }) {
       }`}
       style={{
         cursor: "grab",
-        transform,
+        transform: CSS.Transform.toString(transform),
         transition,
       }}
     >
