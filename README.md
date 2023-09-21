@@ -4,7 +4,6 @@ This project is a React-based image gallery with the following features:
 
 - View images in a grid layout.
 - Search for images by tags.
-- Upload new images with tags(authenticated users only).
 - Rearrange images using drag and drop functionality (authenticated users only).
 
 ## Table of Contents
@@ -15,7 +14,6 @@ This project is a React-based image gallery with the following features:
 - [Usage](#usage)
   - [Viewing the Gallery](#viewing-the-gallery)
   - [Searching for Images](#searching-for-images)
-  - [Uploading New Images](#uploading-new-images)
   - [Rearranging Images (Authenticated Users)](#rearranging-images-authenticated-users)
 - [Authentication with Auth0](#authentication-with-auth0)
 - [License](#license)
@@ -54,14 +52,6 @@ Before you begin, ensure you have the following dependencies installed:
 ### Searching for Images
 -  Use the search bar to filter images by tags. Enter a keyword, and the gallery will display matching images.
   
-### Uploading New Images (Authenticated Users)
-- To add a new image to the gallery, you need to be an authenticated user by signing up then login.
-- Authentication is implemented using Auth0 (see Authentication with Auth0).
-- Once authenticated, you can drag and drop images to rearrange them.
-- Click the "Choose File" button and select an image file.
-- Enter a tag in the input field.
-- Click "Add" to upload the image with the specified tag.
-
 ### Rearranging Images (Authenticated Users)
 - To rearrange images using drag and drop functionality, you need to be an authenticated user by signing up then login.
 - Authentication is implemented using Auth0 (see Authentication with Auth0).
